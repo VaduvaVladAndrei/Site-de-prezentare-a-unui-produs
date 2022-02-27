@@ -1,0 +1,15 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.responsive{
+	max-width:50%;
+	height:auto;
+}
+
+font {
+	font-family:'Courier New', monospace;
+	color:white;
+}

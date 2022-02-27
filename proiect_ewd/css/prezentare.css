@@ -1,0 +1,86 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.responsive{
+	max-width:50%;
+	height:auto;
+}
+
+.clear{
+	clear:both;
+}
+
+font {
+	font-family:'Courier New', monospace;
+	color:white;
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+}
+
+img{
+	max-width:50%;
+	height:auto;
+}
+
+a:link {
+  color: lime;
+  text-decoration:none;
+}
+
+a:visited {
+  color: lime;
+  text-decoration:none;
+}
+
+/*Stilizarea meniului de dropdown*/
+.meniu{
+	display:inline-block;
+	margin-left:100px;
+}
+
+.butondrop{
+	color:white;
+	font-size:20px;
+	background-color: lime;
+	padding:16px;
+	border:none;
+	font-family:'Courier New', monospace;
+}
+
+.continut{
+	display:none;
+	position:absolute;
+}
+
+.continut a{
+	display:block;
+	background-color:white;
+	padding:16px;
+	text-decoration:none;
+}
+
+.continut a:hover{
+	background-color:#cfcfcf;
+}
+
+.meniu:hover .continut{
+	display:block;
+}

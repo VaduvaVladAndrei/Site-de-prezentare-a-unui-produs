@@ -1,0 +1,42 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hov {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hov:hover {
+  transform: scale(1.2);
+}
+
+.responsive{
+	max-width:50%;
+	height:auto;
+}
+
+img{
+	max-width:50%;
+	height:auto;
+}
+
+table{
+	border-spacing:0;
+	margin-left:auto; 
+    margin-right:auto;
+    width:50%;
+}
+
+a:link {
+  color: lime;
+  text-decoration:none;
+}
+
+a:visited {
+  color: lime;
+  text-decoration:none;
+}

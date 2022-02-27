@@ -1,0 +1,67 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.responsive{
+  max-width:50%;
+  height:auto;
+}
+
+font {
+  font-family:'Courier New', monospace;
+  color:white;
+}
+
+table td + td { 
+  border-left:1px solid lime; 
+}
+
+td
+{
+    padding:0 30px;
+}
+
+a:link {
+  color: lime;
+}
+
+a:visited {
+  color: lime;
+}
+
+/*Stilizarea meniului de dropdown*/
+.meniu{
+  display:inline-block;
+  margin-left:100px;
+}
+
+.butondrop{
+  color:white;
+  font-size:20px;
+  background-color: lime;
+  padding:16px;
+  border:none;
+  font-family:'Courier New', monospace;
+}
+
+.continut{
+  display:none;
+  position:absolute;
+}
+
+.continut a{
+  display:block;
+  background-color:white;
+  padding:16px;
+  text-decoration:none;
+}
+
+.continut a:hover{
+  background-color:#cfcfcf;
+}
+
+.meniu:hover .continut{
+  display:block;
+}

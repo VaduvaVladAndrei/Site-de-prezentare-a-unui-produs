@@ -1,0 +1,95 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.responsive{
+	max-width:50%;
+	height:auto;
+}
+
+font {
+	font-family:'Courier New', monospace;
+	color:white;
+}
+
+.hov {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hov:hover {
+  transform: scale(1.2);
+}
+
+input[type=button]{
+  background-color:lime;
+  padding:16px;
+  color:white;
+  border:none;
+  font-family:'Courier New', monospace;
+  font-size:20px;
+}
+
+input[type=button]:hover{
+  background-color:#31ab2c;
+}
+
+a:link {
+  color: lime;
+  text-decoration:none;
+}
+
+a:visited {
+  color: lime;
+  text-decoration:none;
+}
+
+textarea{
+  background-color: black;
+  color:white;
+  resize:none;
+  border:none;
+  text-align-last: center;
+}
+
+label{
+  font-size:1.3vw;
+}
+
+/*Stilizarea meniului de dropdown*/
+.meniu{
+  display:inline-block;
+  margin-left:100px;
+}
+
+.butondrop{
+  color:white;
+  font-size:20px;
+  background-color: lime;
+  padding:16px;
+  border:none;
+  font-family:'Courier New', monospace;
+}
+
+.continut{
+  display:none;
+  position:absolute;
+}
+
+.continut a{
+  display:block;
+  background-color:white;
+  padding:16px;
+  text-decoration:none;
+}
+
+.continut a:hover{
+  background-color:#cfcfcf;
+}
+
+.meniu:hover .continut{
+  display:block;
+}
